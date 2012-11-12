@@ -371,7 +371,7 @@ public class DialpadFragment extends Fragment
 
         mDigitsContainer = fragmentView.findViewById(R.id.digits_container);
         mDigits = (EditText) fragmentView.findViewById(R.id.digits);
-        mDigits.setKeyListener(DialerKeyListener.getInstance());
+        mDigits.setKeyListener(UnicodeDialerKeyListener.INSTANCE);
         mDigits.setOnClickListener(this);
         mDigits.setOnKeyListener(this);
         mDigits.setOnLongClickListener(this);
