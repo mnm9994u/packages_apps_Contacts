@@ -37,7 +37,7 @@
             android:layout_alignBottom="@id/photo"
             android:layout_alignLeft="@id/photo"
             android:layout_alignRight="@id/photo"
-            android:background="@color/call_detail_photo_b" />
+            android:background="@color/call_detail_photo_bg" />
         <ImageView
             android:id="@+id/contact_details_image"
             android:src="@drawable/ic_contacts_holo_dark"
